@@ -32,7 +32,7 @@
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "gen-dts": "j2d ./index.js",
-    "pub": "npm run gen-dts && npm run pkgfiles && npm publish",
+    "pub": "npm run gen-dts && npm run pkgfiles && npm publish --access=public",
     "cov": "egg-bin cov",
     "ci": "npm run lint && egg-bin pkgfiles --check && npm run cov",
     "pkgfiles": "egg-bin pkgfiles"
