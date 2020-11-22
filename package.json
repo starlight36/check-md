@@ -1,5 +1,5 @@
 {
-  "name": "check-md",
+  "name": "@starlight36/check-md",
   "version": "1.0.1",
   "description": "Checks dead links of markdown",
   "bin": {
